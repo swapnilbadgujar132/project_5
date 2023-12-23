@@ -1,6 +1,6 @@
 
 let changurl="https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/";
-console.log(changurl,"AAAAAAAAA");
+console.log(changurl,"qqq");
 var firsturl;
 var securl;
 var l_c_name;
