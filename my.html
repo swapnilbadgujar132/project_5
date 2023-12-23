@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="my.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"> 
+</head>
+<body>
+    <div class="box_section" >
+       <div>
+       <h2>currency Converter</h2>  
+     
+        <label for="enter_amt">Enter Amount</label>
+        <br>
+        <input type="text" value="1" class="input_value">
+         
+
+        <div class="From_to" >
+        <p>From</p>
+        <p>To</p>
+        </div>
+
+        <div class="Exchang_section">
+        <select name="country" id=""  class="select_section left">
+            <option value="">select_country</option>
+        </select>
+        <i class="fa-solid fa-repeat replace" style="cursor: pointer;  margin: 10px;"></i>
+        <select name="country" id="" class="select_section right">
+           <option value="">select_country</option>
+        </select>
+        </div>
+
+        <!-- output_section -->
+        <p class="output_section">Output</p>
+        <button class="click_btn" >Get Exchange Rate</button>
+       </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="code.js"></script>
+    <script src="my.js"></script>
+</body>
+</html>
